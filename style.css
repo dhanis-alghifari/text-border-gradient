@@ -1,0 +1,18 @@
+.text-border-gradient {
+
+    /* Ini untuk text gradient */
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 130px;
+    width: 70%;
+    text-align: center;
+    background: linear-gradient(90deg, #456990, #e5446d, #ffe66d 15%);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* Ini untuk border gradient */
+    border: 15px solid;
+    border-image: linear-gradient(45deg, #6cdeff, #70cbff, #ff3e96, #440097 100%);
+    border-image-slice: 1;
+}
